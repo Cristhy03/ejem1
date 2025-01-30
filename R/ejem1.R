@@ -4,12 +4,6 @@
 ######       Realizado por: Cristhiany Apunte    ######################
 ######################################################################
 
-inversa_matriz <- function(matriz) {
-  if (det(matriz) == 0) {
-    stop("La matriz no tiene inversa, ya que su determinante es cero.")
-  }
-
-  inversa <- solve(matriz)
-  return(inversa)
+producto_punto <- function(v1, v2) {
+  return(sum(v1 * v2))
 }
-
