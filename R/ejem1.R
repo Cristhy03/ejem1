@@ -4,6 +4,6 @@
 ######       Realizado por: Cristhiany Apunte    ######################
 ######################################################################
 
-pp <- function(v1, v2) {
+ppunt <- function(v1, v2) {
   return(sum(v1 * v2))
 }
